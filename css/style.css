@@ -123,3 +123,36 @@ h3{
 .textmoi{
     height: 30px;
 }
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #190f33;
+    margin-bottom: 80px;
+}
+
+.textform{
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.logo1{
+    height: 100px;
+    width: 200px;
+    object-fit: cover;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
