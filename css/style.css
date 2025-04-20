@@ -40,7 +40,86 @@ a:hover{
 }
 
 img{
-    height: 400px;
+    height:500px;
     width: 1024px;
     object-fit: cover;
+}
+
+#apropos{
+    background-color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;        
+}
+
+#formation{
+    background-color: #eeeef7;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#pj{
+    background-color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#contact{
+    background-color: #eeeef7;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.textapropos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.pp{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: solid 2px #fcc01a;
+    object-fit: cover;
+    margin-right: 80px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    font-size: 38px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: #190f33;
+}
+
+.infos{
+    font-size: 30px;
+    font-style: italic;
+    color: #190f33;
+}
+
+h3{
+    font-size: 26px;
+    font-weight: bold;
+    color: #190f33;
+    margin-bottom: 40px;
+}
+
+.textmoi{
+    height: 30px;
 }
