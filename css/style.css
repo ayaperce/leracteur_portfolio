@@ -39,7 +39,7 @@ a:hover{
     cursor: pointer;
 }
 
-img{
+#computer{
     height:500px;
     width: 1024px;
     object-fit: cover;
@@ -155,4 +155,36 @@ h2{
     margin-right: 100px;
 }
 
+.tripadvisor img{
+    width: 500px;
+    margin-right: 60px;
+    object-fit: contain;
+}
 
+.tripadvisor h4{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.tripadvisor li{
+    line-height: 30px;
+    list-style-type: disc;
+}
+
+.texttripadvisor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.texttripadvisor h4{
+    margin-right: 60px;
+}
+
+.texttripadvisor li{
+    list-style-type: disc;
+    line-height: 30px;
+}
