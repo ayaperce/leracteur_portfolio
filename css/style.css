@@ -155,10 +155,14 @@ h2{
     margin-right: 100px;
 }
 
-.tripadvisor img{
-    width: 500px;
-    margin-right: 60px;
-    object-fit: contain;
+#pfpj{
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+.tripadvisor{
+    display: flex;
+    flex-direction: row;
 }
 
 .tripadvisor h4{
@@ -187,4 +191,10 @@ h2{
 .texttripadvisor li{
     list-style-type: disc;
     line-height: 30px;
+}
+
+.tripadvisor img{
+    width: 500px;
+    object-fit: contain;
+    margin-right: 60px;
 }
