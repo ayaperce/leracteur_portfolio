@@ -5,107 +5,116 @@
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
-    <header>
-        <h1>Mon portfolio</h1>
-    </header>
-    <main class="main-block">
-        <nav class="navigation">
-            <a href="#apropos">A propos de moi</a>
-            <a href="#formation">Formation</a>
-            <a href="#pj">Projets</a>
-            <a href="#contact">Contact</a>
-        </nav>
-        <div class="computer">
-            <img id="computer" src="./img/computer.jpeg">
+    <div id="contenu">
+        <header>
+            <h1>Mon portfolio</h1>
+        </header>
+        <main class="main-block">
+            <nav class="navigation">
+                <a href="#apropos">A propos de moi</a>
+                <a href="#formation">Formation</a>
+                <a href="#pj">Projets</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="computer">
+                <img id="computer" src="./img/computer.jpeg">
+            </div>
+            <section id="apropos">
+                <div class="textapropos">
+                    <img class="pp" src="./img/dog.jpeg">
+                    <div class="informations">
+                        <p class="info">Ayperce</p>
+                        <p class="infos">Paris</p>
+                    </div>
+                </div>
+                <h3>A propos de moi</h3>
+                <p class="textmoi">Ayant étudié à l'école 42 Paris durant l'année 2023, j'ai pu acquérir de connaissances dans certains langages comme le html, le css et le javascript durant une "discovery piscine" qui as durée une semaine et à laquelle j'ai eu l'occasion d'assister deux fois. Ainsi qu'en C durant la piscine que j'ai passer en aout 2023 et que j'ai réussi avant d'accéder au tronc commun de cette école.</p>
+            </section>        
+            <section id="formation">
+                <h2>Formations</h2>
+                <p class="textform">Les technologies sur lesquelles je me forme actuellement</p>
+                <img class="logo" src="./img/css.png">
+                <img class="logo" src="./img/html.png">
+                <img class="logo" src="./img/javascript.png">
+                <p class="textform">Prochainement je suivrais la formation Développement Web & Mobile au Reacteur afin de perfectionner mes connaissances et d'apprendre de nouvelles technologies</p>
+                <img class="logo1" src="./img/react.png">
+                <img class="logo1" src="./img/mongodb.png">
+            </section>
+            <section id="pj">
+                <h2>Projets</h2>
+                <p id="pfpj">Au cours de ma formation Développement Web & Mobile, je réaliserai plusieurs répliques d'applications Web et d'application Mobiles.</p>
+                <div class="projets">
+                    <img src="./img/tripadvisor.png">
+                    <div class="textprojets">
+                        <h3>Tripadvisor Web</h3>
+                        <h4>Projet Front-End</h4>
+                        <ul>
+                            <li>Envoi automatisé de mails</li>
+                            <li>Carousel de photos</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="projets">
+                    <img src="./img/deliveroo.png">
+                    <div class="textprojets">
+                        <h3>Deliveroo Web</h3>
+                        <h4>Projet Front-End</h4>
+                        <ul>
+                            <li>Récupération de données</li>
+                            <li>Panier de commande</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="projets">
+                    <img src="./img/vinted.png">
+                    <div class="textprojets">
+                        <h3>Vinted Web</h3>
+                        <h4>Projet Full-Stack</h4>
+                        <ul>
+                            <li>Inscription / connexion</li>
+                            <li>Récupération de données</li>
+                            <li>Publication d'annonces</li>
+                            <li>Barre de recherche</li>
+                            <li>Paiement</li>
+                            <li>Upload de photos</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="projets">
+                    <img src="./img/airbnb.png">
+                    <div class="textprojets">
+                        <h3>Airbnb Mobile</h3>
+                        <h4>Projet Full-Stack</h4>
+                        <ul>
+                            <li>Inscription / connexion</li>
+                            <li>Modification du profil utilisateur</li>
+                            <li>Affichage de cartes</li>
+                            <li>Géolocalisation</li>
+                            <li>Accès à la galerie d'images</li>
+                            <li>Accès à l'appareil photo</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <h2 id="titrecontact" class="contacts">Contactez-moi</h2>
+                <div class="contacts">
+                    <img src="./img/github.png">
+                    <a href="https://github.com/ayaperce" target="_blank">https://github.com/ayaperce</a>
+                </div>
+                <div class="contacts">
+                    <img src="./img/mail.jpg">
+                    <p>aypercey@gmail.com</p>
+                </div>
+            </section>
         </div>
-        <section id="apropos">
-            <div class="textapropos">
-                <img class="pp" src="./img/dog.jpeg">
-                <div class="informations">
-                    <p class="info">Ayperce</p>
-                    <p class="infos">Paris</p>
-                </div>
-            </div>
-            <h3>A propos de moi</h3>
-            <p class="textmoi">Ayant étudié à l'école 42 Paris durant l'année 2023, j'ai pu acquérir de connaissances dans certains langages comme le html, le css et le javascript durant une "discovery piscine" qui as durée une semaine et à laquelle j'ai eu l'occasion d'assister deux fois. Ainsi qu'en C durant la piscine que j'ai passer en aout 2023 et que j'ai réussi avant d'accéder au tronc commun de cette école.</p>
-        </section>        
-        <section id="formation">
-            <h2>Formations</h2>
-            <p class="textform">Les technologies sur lesquelles je me forme actuellement</p>
-            <img class="logo" src="./img/css.png">
-            <img class="logo" src="./img/html.png">
-            <img class="logo" src="./img/javascript.png">
-            <p class="textform">Prochainement je suivrais la formation Développement Web & Mobile au Reacteur afin de perfectionner mes connaissances et d'apprendre de nouvelles technologies</p>
-            <img class="logo1" src="./img/react.png">
-            <img class="logo1" src="./img/mongodb.png">
-        </section>
-        <section id="pj">
-            <h2>Projets</h2>
-            <p id="pfpj">Au cours de ma formation Développement Web & Mobile, je réaliserai plusieurs répliques d'applications Web et d'application Mobiles.</p>
-            <div class="projets">
-                <img src="./img/tripadvisor.png">
-                <div class="textprojets">
-                    <h3>Tripadvisor Web</h3>
-                    <h4>Projet Front-End</h4>
-                    <ul>
-                        <li>Envoi automatisé de mails</li>
-                        <li>Carousel de photos</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="projets">
-                <img src="./img/deliveroo.png">
-                <div class="textprojets">
-                    <h3>Deliveroo Web</h3>
-                    <h4>Projet Front-End</h4>
-                    <ul>
-                        <li>Récupération de données</li>
-                        <li>Panier de commande</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="projets">
-                <img src="./img/vinted.png">
-                <div class="textprojets">
-                    <h3>Vinted Web</h3>
-                    <h4>Projet Full-Stack</h4>
-                    <ul>
-                        <li>Inscription / connexion</li>
-                        <li>Récupération de données</li>
-                        <li>Publication d'annonces</li>
-                        <li>Barre de recherche</li>
-                        <li>Paiement</li>
-                        <li>Upload de photos</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="projets">
-                <img src="./img/airbnb.png">
-                <div class="textprojets">
-                    <h3>Airbnb Mobile</h3>
-                    <h4>Projet Full-Stack</h4>
-                    <ul>
-                        <li>Inscription / connexion</li>
-                        <li>Modification du profil utilisateur</li>
-                        <li>Affichage de cartes</li>
-                        <li>Géolocalisation</li>
-                        <li>Accès à la galerie d'images</li>
-                        <li>Accès à l'appareil photo</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section id="contact">
-            <h2 id="titrecontact" class="contacts">Contactez-moi</h2>
-            <div class="contacts">
-                <img src="./img/github.png">
-                <a href="https://github.com/ayaperce" target="_blank">https://github.com/ayaperce</a>
-            </div>
-            <div class="contacts">
-                <img src="./img/mail.jpg">
-                <p>aypercey@gmail.com</p>
-            </div>
-        </section>
-    </main>
-</body>
+        </main>
+        <footer>
+            <section id="foot">
+                <p>Projet réalisé par ayaperce</p>
+                <p>Préparation à la formation Développement Web & Mobile</p>
+                <a href="https://www.lereacteur.io" target="_blank">Le Reacteur</a>
+            </section>
+        </footer>
+    </body>
 </html>
