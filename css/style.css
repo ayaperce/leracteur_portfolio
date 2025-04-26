@@ -199,3 +199,23 @@ h2{
     margin-right: 60px;
 }
 
+.contacts img{
+    height: 30px;
+    margin-right: 20px;
+}
+
+.contacts a:hover{
+    color: #5c48d2;
+    cursor: pointer;
+}
+
+#titrecontact{
+    text-align: center;
+}
+
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    margin-bottom: 100px;
+}
