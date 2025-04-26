@@ -220,11 +220,10 @@ h2{
 }
 
 footer{
-    margin-top: 2000px;
-    position: absolute;
-    bottom: 0px;
     background-color: #5c48d2;
     height: 300px;
+    text-align: center;
+    margin-top: 100px;
 }
 
 footer p{
