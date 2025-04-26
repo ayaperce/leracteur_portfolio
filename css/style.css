@@ -45,6 +45,10 @@ a:hover{
     object-fit: cover;
 }
 
+.computer{
+    height: 500px;
+}
+
 #apropos{
     background-color: white;
     padding-left: 100px;
