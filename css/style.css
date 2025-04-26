@@ -127,6 +127,7 @@ h2{
     font-weight: bold;
     color: #190f33;
     margin-bottom: 80px;
+    text-align: center;
 }
 
 .textform{
@@ -155,6 +156,10 @@ h2{
 
 #pfpj{
     margin-bottom: 120px;
+    text-align: center;
+}
+
+#pj h2{
     text-align: center;
 }
 
